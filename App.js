@@ -1,38 +1,24 @@
-import 'react-native-gesture-handler';
+// Import necessary components from React and React Native
 import React from 'react';
-import {View, StyleSheet} from 'react-native';
-import JokeGenerator from './JokeGenerator';
-import FavoriteJokes from './FavoriteJokes';
-
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
+import App from './App';
+import LanguageLearning from './LanguageLearning';
 
-const Tab = createBottomTabNavigator();
+// Create a Stack Navigator
+const Stack = createStackNavigator();
 
-// this is the main app, all it does is use the jokeGenerator inside a view, and violat
-export default function App() {
+// Main App component with navigation
+const MainApp = () => {
   return (
-    <NavigationContainer styles={styles.container}>
-      <Tab.Navigator>
-        <Tab.Screen name="Home" component={JokeGenerator} />
-        <Tab.Screen
-          name="Favorites"
-          component={FavoriteJokes}
-          initialParams={{favoriteJokes: []}}
-        />
-      </Tab.Navigator>
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen name="Home" component={App} />
+        <Stack.Screen name="LanguageLearning" component={LanguageLearning} />
+      </Stack.Navigator>
     </NavigationContainer>
-    // <View>
-    //   <JokeGenerator></JokeGenerator>
-    // </View>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'lightblue',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+// Export the MainApp component
+export default MainApp;
