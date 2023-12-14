@@ -6,7 +6,7 @@ This app is a random joke generator. You can save favorites to come back for lat
 
 I wanted to make this app to see if I could integrate API usage into a usable mobile setting.
 
-[Software Demo Video]([http://youtube.link.goes.here](https://youtu.be/CAVuBNkPGvY))
+[Software Demo Video]([(https://youtu.be/CAVuBNkPGvY])
 
 # Development Environment
 
