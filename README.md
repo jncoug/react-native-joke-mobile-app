@@ -16,7 +16,6 @@ I used javascript with the React Native Libraries
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Youtube](https://www.youtube.com)
 
 # Future Work
