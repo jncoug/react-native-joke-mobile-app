@@ -1,30 +1,25 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+Hi! Im Joseph, and I wanted to create a mobile app in React Native.
 
-{Provide a description of your app.  Describe how to use the app.}
+This app is a random joke generator. You can save favorites to come back for later!
 
-{Describe your purpose for creating this app.}
+I wanted to make this app to see if I could integrate API usage into a usable mobile setting.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video]([http://youtube.link.goes.here](https://youtu.be/CAVuBNkPGvY))
 
 # Development Environment
 
-{Describe the tools that you used to develop the app}
+I used VS Code and the React Native Framework
 
-{Describe the programming language that you used and any libraries.}
+I used javascript with the React Native Libraries
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Youtube](https://www.youtube.com)
 
 # Future Work
+* Display saved jokes
+* Add module to remove saved jokes
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
